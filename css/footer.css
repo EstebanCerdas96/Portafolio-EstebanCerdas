@@ -1,0 +1,19 @@
+.footer{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: white;
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+    
+}
+
+
+

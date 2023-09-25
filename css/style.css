@@ -1,0 +1,30 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    margin: 0;
+}
+
+section{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+/*Tablet*/
+@media screen and(max-width: 1024px) {
+    section{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+/*Mobile*/
+@media screen and (max-width: 768px) {
+    section{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
